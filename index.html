@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBDCXAU - Central Blockchain Digital Coin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button id="lang-en" class="lang-btn active" data-lang="en">EN</button>
+        <button id="lang-ar" class="lang-btn" data-lang="ar">العربية</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="CBDCXAU Logo" class="custom-logo">
+                <span data-en="CBDCXAU" data-ar="CBDCXAU">CBDCXAU</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                <a href="#about" class="nav-link" data-en="About" data-ar="حول">About</a>
+                <a href="#whitepaper" class="nav-link" data-en="Whitepaper" data-ar="الورقة البيضاء">Whitepaper</a>
+                <a href="#tokenomics" class="nav-link" data-en="Tokenomics" data-ar="اقتصاد العملة">Tokenomics</a>
+                <a href="#roadmap" class="nav-link" data-en="Roadmap" data-ar="خارطة الطريق">Roadmap</a>
+                <a href="#team" class="nav-link" data-en="Team" data-ar="الفريق">Team</a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-ar="تواصل">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="neon-grid"></div>
+            <div class="floating-particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span data-en="Central Blockchain Digital Coin" data-ar="العملة الرقمية للبلوكشين المركزي">Central Blockchain Digital Coin</span>
+                    <span class="title-glow">CBDCXAU</span>
+                </h1>
+                <p class="hero-subtitle" data-en="The future of decentralized finance is here. Join the revolution with CBDCXAU's innovative blockchain technology."
+                   data-ar="مستقبل التمويل اللامركزي هنا. انضم إلى الثورة مع تقنية البلوكشين المبتكرة من CBDCXAU.">
+                    The future of decentralized finance is here. Join the revolution with CBDCXAU's innovative blockchain technology.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" data-en="Read More" data-ar="اقرأ المزيد">Read More</button>
+                    <button class="btn btn-secondary" data-en="Join Now" data-ar="انضم الآن">Join Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="About CBDCXAU" data-ar="حول CBDCXAU">About CBDCXAU</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="CBDCXAU (Central Blockchain Digital Coin) is a revolutionary cryptocurrency designed to bridge the gap between traditional finance and the decentralized future. Built on cutting-edge blockchain technology, CBDCXAU offers unparalleled security, scalability, and accessibility."
+                       data-ar="CBDCXAU (العملة الرقمية للبلوكشين المركزي) هي عملة رقمية ثورية مصممة لسد الفجوة بين التمويل التقليدي والمستقبل اللامركزي. مبنية على تقنية البلوكشين المتطورة، توفر CBDCXAU أمانًا وتوسعًا وقابلية وصول لا مثيل لها.">
+                        CBDCXAU (Central Blockchain Digital Coin) is a revolutionary cryptocurrency designed to bridge the gap between traditional finance and the decentralized future. Built on cutting-edge blockchain technology, CBDCXAU offers unparalleled security, scalability, and accessibility.
+                    </p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 data-en="Security" data-ar="الأمان">Security</h3>
+                        <p data-en="Advanced encryption and consensus mechanisms" data-ar="آليات تشفير وتوافق متقدمة">Advanced encryption and consensus mechanisms</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 data-en="Scalability" data-ar="التوسع">Scalability</h3>
+                        <p data-en="High throughput for global adoption" data-ar="معدل نقل عالي للاعتماد العالمي">High throughput for global adoption</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 data-en="Accessibility" data-ar="الوصولية">Accessibility</h3>
+                        <p data-en="Easy to use for everyone" data-ar="سهل الاستخدام للجميع">Easy to use for everyone</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 data-en="Sustainability" data-ar="الاستدامة">Sustainability</h3>
+                        <p data-en="Eco-friendly blockchain technology" data-ar="تقنية بلوكشين صديقة للبيئة">Eco-friendly blockchain technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Whitepaper Section -->
+    <section id="whitepaper" class="section whitepaper">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Whitepaper" data-ar="الورقة البيضاء">Whitepaper</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="whitepaper-content">
+                <div class="whitepaper-preview">
+                    <div class="whitepaper-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 data-en="Technical Documentation" data-ar="التوثيق الفني">Technical Documentation</h3>
+                    <p data-en="Comprehensive guide covering CBDCXAU's technology, economics, and implementation details."
+                       data-ar="دليل شامل يغطي تقنية CBDCXAU واقتصادها وتفاصيل التنفيذ.">
+                        Comprehensive guide covering CBDCXAU's technology, economics, and implementation details.
+                    </p>
+                    <button class="btn btn-primary whitepaper-download" data-en="Download Whitepaper" data-ar="تحميل الورقة البيضاء">
+                        Download Whitepaper
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="section tokenomics">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Tokenomics" data-ar="اقتصاد العملة">Tokenomics</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="tokenomics-content">
+                <div class="tokenomics-chart">
+                    <div class="chart-container">
+                        <canvas id="tokenChart"></canvas>
+                    </div>
+                </div>
+                <div class="tokenomics-details">
+                    <div class="tokenomics-info">
+                        <h3 data-en="Total Supply" data-ar="إجمالي المعروض">Total Supply</h3>
+                        <div class="tokenomics-number">90,000,000 CBDCXAU</div>
+                        <div class="tokenomics-breakdown">
+                            <div class="breakdown-item">
+                                <span class="breakdown-label" data-en="Public Sale" data-ar="البيع العام"></span>
+                                <span class="breakdown-percent">40%</span>
+                            </div>
+                            <div class="breakdown-item">
+                                <span class="breakdown-label" data-en="Team & Advisors" data-ar="الفريق والمستشارون"></span>
+                                <span class="breakdown-percent">20%</span>
+                            </div>
+                            <div class="breakdown-item">
+                                <span class="breakdown-label" data-en="Development" data-ar="التطوير"></span>
+                                <span class="breakdown-percent">25%</span>
+                            </div>
+                            <div class="breakdown-item">
+                                <span class="breakdown-label" data-en="Marketing" data-ar="التسويق"></span>
+                                <span class="breakdown-percent">10%</span>
+                            </div>
+                            <div class="breakdown-item">
+                                <span class="breakdown-label" data-en="Reserve" data-ar="الاحتياطي"></span>
+                                <span class="breakdown-percent">5%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="section roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Roadmap" data-ar="خارطة الطريق – CBDCXAU">Roadmap</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="roadmap-timeline">
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-year" data-en="Q1 2025" data-ar="الربع الأول 2025">Q1 2025</div>
+                            <h3 data-en="Concept and Foundation Development" data-ar="تطوير المفهوم والأساس">Concept and Foundation Development</h3>
+                            <ul class="timeline-details">
+                                <li data-en="💡 Formulating the idea and vision: Creating a dynamically gold-backed meme coin that combines fun and stability." 
+                                   data-ar="💡 صياغة الفكرة والرؤية: إنشاء عملة ميم مدعومة بالذهب ديناميكيًا، تجمع بين المتعة والاستقرار.">
+                                    💡 Formulating the idea and vision: Creating a dynamically gold-backed meme coin that combines fun and stability.
+                                </li>
+                                <li data-en="📄 Whitepaper: Preparing a detailed version including technology, tokenomics, and gold linkage plan." 
+                                   data-ar="📄 الورقة البيضاء (Whitepaper): إعداد نسخة تفصيلية تشمل التقنية، الاقتصاد الرمزي (Tokenomics)، وخطة الربط بالذهب.">
+                                    📄 Whitepaper: Preparing a detailed version including technology, tokenomics, and gold linkage plan.
+                                </li>
+                                <li data-en="🔬 Market research: Studying competitors and analyzing growth opportunities." 
+                                   data-ar="🔬 بحث السوق: دراسة المنافسين وتحليل فرص النمو.">
+                                    🔬 Market research: Studying competitors and analyzing growth opportunities.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-year" data-en="Q2 2025" data-ar="الربع الثاني 2025">Q2 2025</div>
+                            <h3 data-en="Team Formation and Infrastructure" data-ar="تشكيل الفريق والبنية التحتية">Team Formation and Infrastructure</h3>
+                            <ul class="timeline-details">
+                                <li data-en="👥 Team building: Selecting development, marketing, and community support teams." 
+                                   data-ar="👥 بناء الفريق: اختيار فريق تطوير، تسويق، ودعم المجتمع.">
+                                    👥 Team building: Selecting development, marketing, and community support teams.
+                                </li>
+                                <li data-en="🛠️ Launch of official website and visual identity: Designing a professional website that showcases the vision, roadmap, and token." 
+                                   data-ar="🛠️ إطلاق الموقع الرسمي والهوية البصرية: تصميم موقع احترافي يعرض الرؤية، خارطة الطريق، والرمز.">
+                                    🛠️ Launch of official website and visual identity: Designing a professional website that showcases the vision, roadmap, and token.
+                                </li>
+                                <li data-en="🧪 Smart contract development on Solana (SPL Token): Security and performance testing on the testnet." 
+                                   data-ar="🧪 تطوير العقد الذكي على سولانا (SPL Token): اختبارات الأمان والأداء على شبكة الاختبار.">
+                                    🧪 Smart contract development on Solana (SPL Token): Security and performance testing on the testnet.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-year" data-en="Q3 2025" data-ar="الربع الثالث 2025">Q3 2025</div>
+                            <h3 data-en="Minimum Viable Product (MVP) Launch" data-ar="إطلاق المنتج الأدنى الحيوي (MVP)">Minimum Viable Product (MVP) Launch</h3>
+                            <ul class="timeline-details">
+                                <li data-en="🚀 Basic smart contract launch: Deploying the initial version of CBDCXAU." 
+                                   data-ar="🚀 إطلاق العقد الذكي الأساسي: نشر النسخة الأولية من CBDCXAU.">
+                                    🚀 Basic smart contract launch: Deploying the initial version of CBDCXAU.
+                                </li>
+                                <li data-en="📢 Community building: Launching communication channels like Telegram and Discord and attracting early users." 
+                                   data-ar="📢 بناء المجتمع: إطلاق قنوات التواصل مثل Telegram وDiscord وجذب المستخدمين الأوائل.">
+                                    📢 Community building: Launching communication channels like Telegram and Discord and attracting early users.
+                                </li>
+                                <li data-en="🎁 Airdrop campaigns: Distributing initial tokens to incentivize early joining." 
+                                   data-ar="🎁 حملات الإنزال الجوي (Airdrop): توزيع رموز أولية لتحفيز الانضمام المبكر.">
+                                    🎁 Airdrop campaigns: Distributing initial tokens to incentivize early joining.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-year" data-en="Q4 2025" data-ar="الربع الرابع 2025">Q4 2025</div>
+                            <h3 data-en="Mainnet Launch and Growth" data-ar="إطلاق الشبكة الرئيسية والنمو">Mainnet Launch and Growth</h3>
+                            <ul class="timeline-details">
+                                <li data-en="🌐 Mainnet operation on Solana and deploying CBDCXAU." 
+                                   data-ar="🌐 تشغيل الشبكة الرئيسية (Mainnet) على سولانا ونشر CBDCXAU.">
+                                    🌐 Mainnet operation on Solana and deploying CBDCXAU.
+                                </li>
+                                <li data-en="🪙 Listing on DEX platforms: Starting trading on decentralized platforms." 
+                                   data-ar="🪙 الإدراج في منصات DEX: بدء التداول على منصات لامركزية.">
+                                    🪙 Listing on DEX platforms: Starting trading on decentralized platforms.
+                                </li>
+                                <li data-en="🔐 Security review: Comprehensive audit of the smart contract and ensuring stability." 
+                                   data-ar="🔐 مراجعة الأمان: تدقيق شامل للعقد الذكي وضمان الاستقرار.">
+                                    🔐 Security review: Comprehensive audit of the smart contract and ensuring stability.
+                                </li>
+                                <li data-en="📈 Major marketing campaigns: Collaborating with influencers and producing viral content to attract the largest number of users." 
+                                   data-ar="📈 حملات تسويق كبيرة: التعاون مع المؤثرين وإنتاج محتوى فيروسي لجذب أكبر عدد من المستخدمين.">
+                                    📈 Major marketing campaigns: Collaborating with influencers and producing viral content to attract the largest number of users.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-year" data-en="Q1–Q4 2026" data-ar="الربع الأول–الربع الرابع 2026">Q1–Q4 2026</div>
+                            <h3 data-en="Expansion and Ecosystem Building" data-ar="التوسع وبناء النظام البيئي">Expansion and Ecosystem Building</h3>
+                            <ul class="timeline-details">
+                                <li data-en="🤝 Strategic partnerships: Collaborating with other projects in DeFi and NFT." 
+                                   data-ar="🤝 الشراكات الإستراتيجية: التعاون مع مشاريع أخرى في DeFi وNFT.">
+                                    🤝 Strategic partnerships: Collaborating with other projects in DeFi and NFT.
+                                </li>
+                                <li data-en="🛍️ Application integration: Supporting the currency in wallets and digital services." 
+                                   data-ar="🛍️ تكامل التطبيقات: دعم العملة في المحافظ والخدمات الرقمية.">
+                                    🛍️ Application integration: Supporting the currency in wallets and digital services.
+                                </li>
+                                <li data-en="💼 Listing on centralized exchanges (CEX): Facilitating trading on major platforms." 
+                                   data-ar="💼 الإدراج في منصات مركزية (CEX): تسهيل التداول على المنصات الكبرى.">
+                                    💼 Listing on centralized exchanges (CEX): Facilitating trading on major platforms.
+                                </li>
+                                <li data-en="🌎 Global community expansion: Worldwide campaigns in different languages." 
+                                   data-ar="🌎 توسيع المجتمع عالميًا: حملات عالمية باللغات المختلفة.">
+                                    🌎 Global community expansion: Worldwide campaigns in different languages.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-year" data-en="2027" data-ar="2027">2027</div>
+                            <h3 data-en="Sustainability and Next Phase" data-ar="الاستدامة والمرحلة التالية">Sustainability and Next Phase</h3>
+                            <ul class="timeline-details">
+                                <li data-en="🧭 DAO governance: Enabling the community to vote and make decisions." 
+                                   data-ar="🧭 حوكمة DAO: تمكين المجتمع من التصويت واتخاذ القرارات.">
+                                    🧭 DAO governance: Enabling the community to vote and make decisions.
+                                </li>
+                                <li data-en="🪩 NFTs and Metaverse: Developing new digital products linked to the currency." 
+                                   data-ar="🪩 NFTs وMetaverse: تطوير منتجات رقمية جديدة مرتبطة بالعملة.">
+                                    🪩 NFTs and Metaverse: Developing new digital products linked to the currency.
+                                </li>
+                                <li data-en="💹 Developing new use cases: Payments, gaming, social platforms and more." 
+                                   data-ar="💹 تطوير حالات استخدام جديدة: الدفع، الألعاب، منصات اجتماعية وغيرها.">
+                                    💹 Developing new use cases: Payments, gaming, social platforms and more.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="roadmap-notes">
+                <h3 data-en="Notes for the Whitepaper:" data-ar="ملاحظات للورقة البيضاء:">Notes for the Whitepaper:</h3>
+                <ul>
+                    <li data-en="Gold linkage is done periodically according to market price, making the value of CBDCXAU dynamic with trading and demand." 
+                       data-ar="الربط بالذهب يتم دوريًا وفق سعر السوق، مما يجعل قيمة CBDCXAU ديناميكية مع التداول والطلب.">
+                        Gold linkage is done periodically according to market price, making the value of CBDCXAU dynamic with trading and demand.
+                    </li>
+                    <li data-en="Total supply: 90,000,000 CBDCXAU." 
+                       data-ar="إجمالي المعروض: 90,000,000 CBDCXAU.">
+                        Total supply: 90,000,000 CBDCXAU.
+                    </li>
+                    <li data-en="Network: Solana (SPL Token)." 
+                       data-ar="الشبكة: Solana (SPL Token).">
+                        Network: Solana (SPL Token).
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Our Team" data-ar="فريقنا">Our Team</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Ccircle cx='100' cy='100' r='90' fill='%23a855f7'/%3E%3Ctext x='100' y='110' text-anchor='middle' fill='white' font-family='Inter' font-size='24' font-weight='bold'%3ESA%3C/text%3E%3C/svg%3E" alt="CEO">
+                    </div>
+                    <h3 data-en="Sarah Ahmed" data-ar="سارة أحمد">Saad mohammed</h3>
+                    <p class="member-role" data-en="CEO & Founder" data-ar="الرئيس التنفيذي والمؤسس">CEO & Founder</p>
+                    <p class="member-bio" data-en="Visionary leader with 10+ years in blockchain" data-ar="قائد مبدعة مع أكثر من 10 سنوات في البلوكشين">Visionary leader with 10+ years in blockchain</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Ccircle cx='100' cy='100' r='90' fill='%2306b6d4'/%3E%3Ctext x='100' y='110' text-anchor='middle' fill='white' font-family='Inter' font-size='24' font-weight='bold'%3EMJ%3C/text%3E%3C/svg%3E" alt="CTO">
+                    </div>
+                    <h3 data-en="Michael Johnson" data-ar="مايكل جونسون">Matoq mohammed</h3>
+                    <p class="member-role" data-en="CTO" data-ar="المدير التقني">CTO</p>
+                    <p class="member-bio" data-en="Blockchain architect and security expert" data-ar="مهندس بلوكشين وخبير أمني">Blockchain architect and security expert</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Ccircle cx='100' cy='100' r='90' fill='%2310b981'/%3E%3Ctext x='100' y='110' text-anchor='middle' fill='white' font-family='Inter' font-size='24' font-weight='bold'%3ELC%3C/text%3E%3C/svg%3E" alt="CMO">
+                    </div>
+                    <h3 data-en="Lisa Chen" data-ar="ليزا تشين">Lisa Chen</h3>
+                    <p class="member-role" data-en="CMO" data-ar="مديرة التسويق">CMO</p>
+                    <p class="member-bio" data-en="Marketing strategist and community builder" data-ar="استراتيجية تسويق وبناء المجتمع">Marketing strategist and community builder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Contact Us" data-ar="تواصل معنا">Contact Us</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                            <p>info@cbcdcoin.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3 data-en="Website" data-ar="الموقع">Website</h3>
+                            <p>www.cbcdcoin.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <label for="name" data-en="Your Name" data-ar="اسمك">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <label for="email" data-en="Your Email" data-ar="بريدك الإلكتروني">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        <label for="message" data-en="Your Message" data-ar="رسالتك">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-en="Send Message" data-ar="إرسال الرسالة">Send Message</button>
+                </form>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="CBDCXAU Logo" class="custom-logo">
+                    <span>CBDCXAU</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+                    <a href="#about" data-en="About" data-ar="حول">About</a>
+                    <a href="#whitepaper" data-en="Whitepaper" data-ar="الورقة البيضاء">Whitepaper</a>
+                    <a href="#tokenomics" data-en="Tokenomics" data-ar="اقتصاد العملة">Tokenomics</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CBDCXAU. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
